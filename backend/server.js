@@ -16,15 +16,12 @@ app.use(express.json());
 // app.use(cors({ origin: "http://localhost:3000" }));
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000", // Allow localhost for local development
-      "https://full-stack-food-website-chi.vercel.app", 
-      "https://full-stack-food-website-7rqp.vercel.app/"  // Allow your deployed frontend
-    ],
-    methods: ["POST", "GET", "OPTIONS"], // Allow POST, GET, and OPTIONS (preflight)
-    credentials: true, // If you're using cookies or sessions
+    origin: "*",  // Allows any website to access the API
+    methods: ["POST", "GET", "OPTIONS", "PUT", "DELETE"],
+    credentials: true,
   })
 );
+
 
 
 app.use("/images", express.static("uploads"));
