@@ -1,0 +1,41 @@
+.content{
+    margin: 33px auto;
+    padding: 0 20px;
+    background: url('../../assets/header_img.png');
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 7vw;
+}
+
+.content h2{
+    font-size: 4rem;
+    font-weight: 600;
+    width: 55%;
+    color: white;
+    animation: changeOpacity 2s ease-in-out;
+
+}
+.content p{
+    color: white;
+    font-weight: 450;
+    animation: changeOpacity 2s;
+
+}
+.content button{
+    padding: 14px 5px;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    width: 140px;
+    color: rgb(78, 78, 78);
+    animation: changeOpacity 2s ease-in-out;
+    cursor: pointer;
+
+}

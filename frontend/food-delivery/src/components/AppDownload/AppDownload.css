@@ -1,0 +1,22 @@
+.app-download{
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+    gap: 50px;
+}
+.app-download h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(46, 46, 46);
+}
+.app-logo img{
+    margin-left: 40px;
+    cursor: pointer;
+    
+}
+.app-logo img:hover{
+    transform: scale(1.05);
+}

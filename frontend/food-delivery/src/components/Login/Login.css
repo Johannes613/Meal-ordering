@@ -1,0 +1,81 @@
+div.login{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #00000090;
+
+}
+form.login-container{
+    background-color: white;
+    width: 24vw;
+    min-height: 57vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-size: 14px;
+    animation: changeOpacity 1s;
+    gap: 10px;
+    color: #808080;
+}
+div.form-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+}
+div.form-title img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+div.form-title h2{
+    font-size: 1.6rem;
+    font-weight: 650;
+}
+div.login-inputs input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #c9c9c9;
+    /* color: gray; */
+    font-size: 15px;
+}
+form.login-container button{
+    padding: 12px;
+    font-size: 15px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+div.agreement{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+div.agreement p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+div.change-state span{
+    cursor: pointer;
+    color: tomato;
+    font-weight: 500;
+}
+div.change-state p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+

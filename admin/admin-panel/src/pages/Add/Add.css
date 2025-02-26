@@ -1,0 +1,70 @@
+div.add{
+    padding: 5%;
+    width: 80%;
+}
+div.add form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+div.add form label{
+    width: 14%;
+    height: 12vh;
+}
+div.add form img{
+    width:100%;
+    height: 100%;
+}
+div.form-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+div.form-body input{
+    width: 40%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(190, 189, 189);
+
+}
+div.form-body textarea{
+    width: 40%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(190, 189, 189);
+
+
+}
+div.flex-style{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+
+
+}
+div.flex-style select{
+    padding: 8px 13px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid rgb(190, 189, 189);
+
+
+}
+div.flex-style input{
+    width: 50%;
+    padding: 8px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid rgb(190, 189, 189);
+
+}
+button.add-item{
+    max-width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+
+}

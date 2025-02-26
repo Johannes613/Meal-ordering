@@ -1,0 +1,34 @@
+div.place-order{
+    display: flex;
+    justify-content: space-between;
+    padding: 9vw 2vw;
+    gap: 10vw;
+}
+div.place-order-left{
+    width: 30vw;
+}
+div.place-order-left h2{
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 650;
+}
+div.multi-field{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+div.place-order-left input{
+    width: 30vw;
+    padding: 10px;
+    margin-top: 10px;
+    outline-color: rgba(255, 99, 71, 0.35);
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+div.multi-field input{
+    width: 17vw;
+
+}

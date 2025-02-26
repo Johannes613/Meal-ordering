@@ -1,0 +1,99 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px 0;
+    position: relative;
+}
+.logo{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    
+}
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+.nav-bar ul li{
+    list-style: none;
+    color: #555555;
+    font-size: 18px;
+    padding: 0;
+}
+.nav-bar .active{
+    text-decoration: solid 2px #717171;
+    text-decoration-line: underline;
+    text-underline-offset: 6px;
+}
+.nav-bar ul li:hover{
+    cursor: pointer;
+}
+
+div.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+div.right-nav img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+div.right-nav button{
+    padding: 8px 27px;
+    border-radius: 20px;
+    background:transparent;
+    border: 1px solid #977e7e;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+div.right-nav button:hover{
+    background-color: #fff4f2;
+}
+
+ul.action-list{
+    display: none;
+    position: absolute;
+    background-color: #fff2ef;
+    z-index: 2;
+
+}
+ul.action-list li{
+    display: flex;
+    gap: 10px;
+}
+ul.action-list hr{
+    display: block;
+    height: 1px;
+    width: 70%;
+}
+ul.action-list img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.profile-image:hover ul.action-list{
+    display: block;
+    width: 8vw;
+    height: 15vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px 5px;
+    border: 1px solid rgba(180, 87, 71, 0.418);
+    border-radius: 4px;
+}
+.profile-image:hover ul.action-list p:hover{
+    text-decoration: underline;
+    color: rgb(195, 107, 107);
+    opacity: 0.8;
+}

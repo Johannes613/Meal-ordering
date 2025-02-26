@@ -1,0 +1,85 @@
+div.food-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2%;
+}
+div.food{
+    width: 23.5%;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.2);
+    border-radius: 15px;
+    height: 405px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+    animation: changeOpacity 2s ease;
+    position: relative;
+
+}
+div.food img.cover-img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+div.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+h2.top-des{
+    margin: 35px 0;
+    font-size: 27px;
+    font-weight: 650;
+}
+div.food p{
+    margin: 0 20px;
+    color: #3b3a3a;
+}
+div.food h2.food-name{
+    font-size: 20px;
+    font-weight: 530;
+}
+div.food h2.price{
+    margin: 0 20px;
+    color: rgb(242, 94, 68);
+    font-size: 23px;
+}
+.disappear{
+    display: none;
+}
+.rating{
+    display: flex;
+    gap: 2px;
+    color: rgb(242, 94, 68);
+}
+.item-counter{
+    position: absolute;
+    right: 5px;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.item-counter img{
+    width: 30px;
+    cursor: pointer;
+}
+.item-counter p{
+    margin: 0;
+    padding: 0;
+}
+div.food img.inc{
+    width: 35px;
+    position: absolute;
+    right: 5px;
+    top: 45%;
+    cursor: pointer;
+}
