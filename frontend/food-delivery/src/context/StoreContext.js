@@ -7,7 +7,7 @@ const GlobalState = ({ children }) => {
   const [listFo, setList] = useState([]);
 
   const fetchFoodList = async () => {
-    const url = "https://full-stack-food-website-chi.vercel.app/api/food/list";
+    const url = "https://food-backend-7432.onrender.com/api/food/list";
     try {
       const res = await fetch(url);
       if (!res.ok) {
@@ -41,7 +41,7 @@ const GlobalState = ({ children }) => {
     }
     try {
       const response = await fetch(
-        "https://full-stack-food-website-chi.vercel.app/api/user/cart/get",
+        "https://food-backend-7432.onrender.com/api/user/cart/get",
         {
           method: "GET",
           headers: {
@@ -75,7 +75,7 @@ const GlobalState = ({ children }) => {
         }
 
         const response = await fetch(
-          "https://full-stack-food-website-chi.vercel.app/api/user/cart/add",
+          "https://food-backend-7432.onrender.com/api/user/cart/add",
           {
             method: "PUT",
             headers: {
@@ -108,7 +108,7 @@ const GlobalState = ({ children }) => {
         }
 
         const response = await fetch(
-          "https://full-stack-food-website-chi.vercel.app/api/user/cart/remove",
+          "https://food-backend-7432.onrender.com/api/user/cart/remove",
           {
             method: "PUT",
             headers: {
