@@ -13,9 +13,12 @@ app.use(express.json());
 // app.use(cors({ origin: "http://localhost:3000" }));
 app.use(
   cors({
-    origin: ["https://deploy-mern-1whq.vercel.app"],
+    origin: [
+      "http://localhost:3000",  // Allow localhost for local development
+      "https://full-stack-food-website-chi.vercel.app"  // Allow your deployed frontend
+    ],
     methods: ["POST", "GET"],
-    credentials: true,
+    credentials: true,  // Include credentials (like cookies or authentication headers)
   })
 );
 
