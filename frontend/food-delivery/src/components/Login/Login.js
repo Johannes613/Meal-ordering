@@ -24,8 +24,10 @@ const Login = ({ setShowLogin }) => {
   const onSubmitHandler = async (event) => {
     event.preventDefault();
 
-    const loginUrl = "http://localhost:3500/api/user/login";
-    const signUpUrl = "http://localhost:3500/api/user/signup";
+    const loginUrl =
+      "https://full-stack-food-website-chi.vercel.app/api/user/login";
+    const signUpUrl =
+      "https://full-stack-food-website-chi.vercel.app/api/user/signup";
     try {
       const resp = await fetch(accState === "Login" ? loginUrl : signUpUrl, {
         method: "POST",

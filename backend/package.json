@@ -12,7 +12,7 @@
   "description": "",
   "dependencies": {
     "-": "^0.0.1",
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "body-parser": "^1.20.3",
     "codemon": "^0.1.31-development",
     "cors": "^2.8.5",
