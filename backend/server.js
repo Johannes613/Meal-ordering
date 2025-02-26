@@ -6,6 +6,7 @@ import foodRouter from "./routes/foodRoute.js";
 import userRouter from "./routes/userRoute.js";
 const app = express();
 const PORT = 3500;
+// TO make it more visible
 
 // middlewares
 connectDB();
