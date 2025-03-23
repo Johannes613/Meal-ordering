@@ -11,7 +11,7 @@ div.food{
     margin-bottom: 50px;
     box-shadow: 1px 1px 5px rgb(0,0,0,0.2);
     border-radius: 15px;
-    height: 405px;
+    height: 425px;
     display: flex;
     flex-direction: column;
     gap: 15px;

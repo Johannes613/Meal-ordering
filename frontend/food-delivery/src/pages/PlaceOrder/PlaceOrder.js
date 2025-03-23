@@ -43,7 +43,7 @@ const PlaceOrder = () => {
                             <p>Total</p>
                             <p>${getTotalAmount() === 0?0: getTotalAmount() + 5}</p>
                         </div>
-                        <button onClick = {()=>navigate('/order')}>Proceed To Payment</button>
+                        <button onClick = {()=>navigate('/order')}>Place Order</button>
                     </div>
 
                 </div>

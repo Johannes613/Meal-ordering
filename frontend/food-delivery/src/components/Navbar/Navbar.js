@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom"
 import{ assets } from  "../../assets/assets"
+import logo from "../../assets/image copy 3.png"
 import './Navbar.css'
 import react, {useContext, useEffect, useState} from 'react'
 import { StoreContext } from "../../context/StoreContext"
@@ -16,12 +17,12 @@ const Navbar = ({ setShowLogin }) => {
     
     return ( 
         <div className="nav-bar">
-            <Link to = {'/'}><img className = "logo" src= {assets.logo} alt="" /></Link>
+            <Link to = {'/'}><img className = "logo" src= {logo} alt="" /></Link>
             <ul>
-                <Link class= 'link' to = {'/'}><li onClick={()=>setMenu("home")} className= {menu === "home"?"active":''}>home</li></Link>
+                <Link class= 'link' to = {'/'}><li onClick={()=>setMenu("home")} className= {menu === "home"?"active":''}>Home</li></Link>
                 <li onClick={()=>setMenu("menu")} className= {menu === "menu"?"active":''}>menu</li>
-                <li onClick={()=>setMenu("mobile-app")} className= {menu === "mobile-app"?"active":''}>mobile app</li>
-                <li onClick={()=>setMenu("contact-us")} className= {menu === "contact-us"?"active":''}>contact us</li>
+                <li onClick={()=>setMenu("mobile-app")} className= {menu === "mobile-app"?"active":''}>Mobile app</li>
+                <li onClick={()=>setMenu("contact-us")} className= {menu === "contact-us"?"active":''}>Contact us</li>
             </ul>
             <div className="right-nav">
                 <img src={assets.search_icon} alt="" />

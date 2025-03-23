@@ -22,7 +22,7 @@ const FoodList = ({category}) => {
             }   
     }
     useEffect(()=>{
-        fetchList()
+        fetchList() 
     },[])
     
 

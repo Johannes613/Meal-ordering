@@ -8,7 +8,7 @@ const Cart = () => {
     const {cartItems,addToCart,removeFromCart,food_list,getTotalAmount,cartLi} = useContext(StoreContext)
     const navigate = useNavigate();
 
-    const [listFood,setList] = useState([])
+    const [listFood,setList] = useState([]) 
     
         const fetchFoodList = async()=>{
             const url = 'http://localhost:3500/api/food/list';

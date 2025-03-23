@@ -3,13 +3,14 @@ import { assets } from "../../assets/assets";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import logo from "../../assets/image copy 3.png"
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
         <div className="left-section">
-          <img class="footer-logo" src={assets.logo} alt="" />
+          <img class="footer-logo" src={logo} alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo libero
             molestias animi ex aliquid saepe illum cum plorem Lorem ipsum dolor
